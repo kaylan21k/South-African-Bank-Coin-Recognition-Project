@@ -1,0 +1,30 @@
+#kivy==2.3.0
+#opencv-python
+#numpy
+#scikit-learn==1.6.1
+#scikit-image
+#joblib
+#cython 
+#sudo apt-get install xclip
+
+# Core application and GUI
+kivy==2.3.0
+
+# Computer Vision and Image Processing
+opencv-python
+imgaug
+
+# Data Handling and Scientific Computing
+pandas
+numpy==2.0.0  # We specifically implemented fixes for NumPy 2.0
+
+# Machine Learning
+joblib
+# IMPORTANT: Choose ONE of the following scikit-learn versions.
+# Your log showed you trained on 1.6.1 but are running on 1.7.0.
+scikit-learn==1.6.1  # RECOMMENDED: Use this to match the version your models were TRAINED with for maximum stability.
+# scikit-learn==1.7.0  # ALTERNATIVE: Use this ONLY if you plan to RETRAIN all your models from scratch in the new environment.
+
+# Plotting and Visualization (if needed for notebooks/analysis)
+matplotlib
+seaborn
