@@ -96,10 +96,10 @@ After running the main.py file, you'll see three connection options:
 - Select "Webcam" in the application and click "Connect"
 - Use "Start Live Rec" or "Capture & Predict" for recognition
 
-###Live Rec
+### Live Rec Capture
 ![image](https://github.com/user-attachments/assets/e1e794d9-d393-48e3-a30e-24b519855d6c)
 
-###Capture & Predict
+### Capture & Predict
 ![image](https://github.com/user-attachments/assets/119141f3-c0d7-449c-ac57-7c6bc28295f2)
 
 
