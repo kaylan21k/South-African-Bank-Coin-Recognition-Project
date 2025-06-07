@@ -65,10 +65,10 @@ South-African-Bank-Coin-Recognition-Project/
 
 ### Setup
 
-1. Clone or download this repository 
+1. Clone or download this repository(Make sure the extracted South-African-Bank-Coin-Recognition-Project/ folder contains the Project files directly, not another nested South-African-Bank-Coin-Recognition-Project/ directory inside it, else follow instructions of how to unzip the `models_final.zip` file in the Important Note section for the main Project file that you downloaded. In the end you need to have the same structure specified in the Project Structure section)
 2. **Important:** Unzip the `models_final.zip` file in the same directory (Make sure the extracted models_final/ folder contains the model files directly, not another nested models_final/ directory inside it)
 3. Open the project in VS Code or your preferred code editor
-4. Ensure code editor is in the South-African-Bank-Coin-Recognition-Project Folder
+4. Ensure code editor is in the South-African-Bank-Coin-Recognition-Project folder that contains all project files
 5. (Optional) Create a virtual environment:
 
    **Windows:**
@@ -90,7 +90,7 @@ South-African-Bank-Coin-Recognition-Project/
 
 ## Running the Application
 
-1. Ensure you are in the South-African-Bank-Coin-Recognition-Project Folder
+1. Ensure code editor is in the South-African-Bank-Coin-Recognition-Project folder that contains all project files
 2. Ensure you've unzipped the `models_final.zip` file (Make sure the extracted models_final/ folder contains the model files directly, not another nested models_final/ directory inside it)
 3. Run the application:
    ```
