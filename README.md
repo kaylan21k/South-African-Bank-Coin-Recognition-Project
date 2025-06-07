@@ -4,7 +4,7 @@ A computer vision system for accurate recognition and classification of South Af
 
 ## Model Training Notebook
 
-The model training notebook is a crucial component of this project. It contains the complete pipeline for developing the coin recognition system, including:
+**The model training notebook is a crucial component of this project. It contains the complete pipeline for developing the coin recognition system, including:**
 
 - Processing 714 original coin images
 - Performing multiple augmentations to increase dataset size to 7,854 images
@@ -20,7 +20,25 @@ The model training notebook is a crucial component of this project. It contains 
 
 ## Important Note
 
-Before running the application, you must unzip the `models_final.zip` file as the main.py requires these model files to run.
+The application requires model files located in the `models_final.zip` archive. You must extract these files before running the application.
+
+**1. Unzip the Archive**
+
+Open a terminal or command prompt in the project's root directory and use the appropriate command for your operating system.
+
+* **On macOS or Linux:**
+    ```bash
+    unzip models_final.zip
+    ```
+
+* **On Windows (using PowerShell):** The `tar` command is generally more reliable for avoiding nested directories.
+    ```powershell
+    tar -xf models_final.zip
+    ```
+
+**2. Verify the Directory Structure**
+
+After unzipping, you must have a single `models_final` directory containing the model files. Please verify that your folder structure looks like the Project Structure Below.
 
 ## Project Structure
 
@@ -29,6 +47,11 @@ South-African-Bank-Coin-Recognition-Project/
 ├── README.md
 ├── image_processing_pipeline.py
 ├── main.py
+├── models_final.py (After Unzipped)
+│   ├── feature_names.json
+│   ├── random_forest_side_model.joblib
+│   ├── random_forest_type_model.joblib
+│   ├── scaler.joblib
 ├── model_loader.py
 ├── models_final.zip (must be unzipped before running)
 └── requirements.txt
@@ -43,7 +66,7 @@ South-African-Bank-Coin-Recognition-Project/
 ### Setup
 
 1. Clone or download this repository
-2. **Important:** Unzip the `models_final.zip` file in the same directory
+2. **Important:** Unzip the `models_final.zip` file in the same directory (Make sure the extracted models_final/ folder contains the model files directly, not another nested models_final/ directory inside it)
 3. Open the project in VS Code or your preferred code editor
 4. (Optional) Create a virtual environment:
 
@@ -67,7 +90,7 @@ South-African-Bank-Coin-Recognition-Project/
 ## Running the Application
 
 1. Ensure you are in the South-African-Bank-Coin-Recognition-Project Folder
-2. Ensure you've unzipped the `models_final.zip` file
+2. Ensure you've unzipped the `models_final.zip` file (Make sure the extracted models_final/ folder contains the model files directly, not another nested models_final/ directory inside it)
 3. Run the application:
    ```
    python main.py
