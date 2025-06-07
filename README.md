@@ -2,6 +2,22 @@
 
 A computer vision system for accurate recognition and classification of South African bank coins using deep learning techniques.
 
+## Model Training Notebook
+
+The model training notebook is a crucial component of this project. It contains the complete pipeline for developing the coin recognition system, including:
+
+- Processing 714 original coin images
+- Performing multiple augmentations to increase dataset size to 7,854 images
+- Image preprocessing and enhancement
+- Image segmentation
+- Feature extraction
+- Coin classification (both denomination and side)
+- Model comparison and selection
+
+**Access the notebook here:** [COMP702_PROJECT.ipynb](https://stuukznac-my.sharepoint.com/:u:/g/personal/221011891_stu_ukzn_ac_za/EeHjMwCz_6ZDp5CFJLoUwpEBM4FjmUMieBCVFRQb7VHkFA?e=srrRMW)
+
+**Original images required by notebook(COMP702_PROJECT.ipynb) here:** [original_coins.zip](https://stuukznac-my.sharepoint.com/:u:/g/personal/221011891_stu_ukzn_ac_za/EWiUNrIe1m1Bn1OdoFhpce0BQzscKWbYdvpc40XVhunh9w?e=hQOszK)
+
 ## Important Note
 
 Before running the application, you must unzip the `models_final.zip` file as the main.py requires these model files to run.
@@ -17,21 +33,6 @@ South-African-Bank-Coin-Recognition-Project/
 ├── models_final.zip (must be unzipped before running)
 └── requirements.txt
 ```
-
-## Model Training Notebook
-
-The model training notebook is a crucial component of this project. It contains the complete pipeline for developing the coin recognition system, including:
-
-- Processing 714 original coin images
-- Performing multiple augmentations to increase dataset size to 7,854 images
-- Image preprocessing and enhancement
-- Image segmentation
-- Feature extraction
-- Coin classification (both denomination and side)
-- Model comparison and selection
-
-**Access the notebook here:** [COMP702_PROJECT.ipynb](https://stuukznac-my.sharepoint.com/:u:/g/personal/221011891_stu_ukzn_ac_za/EeHjMwCz_6ZDp5CFJLoUwpEBM4FjmUMieBCVFRQb7VHkFA?e=srrRMW)
-**Original Images Required by notebook(COMP702_PROJECT.ipynb) here:** [original_coins.zip](https://stuukznac-my.sharepoint.com/:u:/g/personal/221011891_stu_ukzn_ac_za/EWiUNrIe1m1Bn1OdoFhpce0BQzscKWbYdvpc40XVhunh9w?e=hQOszK)
 
 ## Installation Instructions
 
