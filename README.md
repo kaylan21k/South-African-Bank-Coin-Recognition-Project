@@ -65,10 +65,11 @@ South-African-Bank-Coin-Recognition-Project/
 
 ### Setup
 
-1. Clone or download this repository
+1. Clone or download this repository 
 2. **Important:** Unzip the `models_final.zip` file in the same directory (Make sure the extracted models_final/ folder contains the model files directly, not another nested models_final/ directory inside it)
 3. Open the project in VS Code or your preferred code editor
-4. (Optional) Create a virtual environment:
+4. Ensure code editor is in the South-African-Bank-Coin-Recognition-Project Folder
+5. (Optional) Create a virtual environment:
 
    **Windows:**
    ```
@@ -82,7 +83,7 @@ South-African-Bank-Coin-Recognition-Project/
    source venv/bin/activate
    ```
 
-5. Install dependencies:
+6. Install dependencies:
    ```
    pip install -r requirements.txt
    ```
