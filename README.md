@@ -66,8 +66,9 @@ South-African-Bank-Coin-Recognition-Project/
 
 ## Running the Application
 
-1. Ensure you've unzipped the `models_final.zip` file
-2. Run the application:
+1. Ensure you are in the South-African-Bank-Coin-Recognition-Project Folder
+2. Ensure you've unzipped the `models_final.zip` file
+3. Run the application:
    ```
    python main.py
    ```
@@ -83,7 +84,6 @@ After running the main.py file, you'll see three connection options:
 ![image](https://github.com/user-attachments/assets/054b5d0d-a093-4de3-84c6-aab81090de3f)
 
 ### Wi-Fi Option (DROIDCAM)
-- Download DROIDCAM from https://www.dev47apps.com/ for your PC
 - Install DROIDCAM Webcam (Classic) on your mobile device
 - Open the app on your mobile device and note the WiFi IP
 - Select "Wi-Fi" in the application, enter the IP, and click "Connect"
