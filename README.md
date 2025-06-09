@@ -14,7 +14,7 @@ A computer vision system for accurate recognition and classification of South Af
 - Coin classification (both denomination and side)
 - Model comparison and selection
 
-**Access the notebook here:** [COMP702_PROJECT.ipynb](https://stuukznac-my.sharepoint.com/:u:/g/personal/221011891_stu_ukzn_ac_za/EeHjMwCz_6ZDp5CFJLoUwpEBM4FjmUMieBCVFRQb7VHkFA?e=srrRMW)
+**Access the notebook here:** [COMP702_PROJECT.ipynb](https://stuukznac-my.sharepoint.com/:u:/g/personal/221011891_stu_ukzn_ac_za/EXNnsVK1bkBBp9P15DHcdcYBFj-l9YZjEFi9d_KAD-Ahng?e=5hgs7A)
 
 **Original images required by notebook(COMP702_PROJECT.ipynb) here:** [original_coins.zip](https://stuukznac-my.sharepoint.com/:u:/g/personal/221011891_stu_ukzn_ac_za/EWiUNrIe1m1Bn1OdoFhpce0BQzscKWbYdvpc40XVhunh9w?e=hQOszK)
 
